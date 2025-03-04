@@ -3,12 +3,14 @@ package com.guilhermediniz.roomie_tabs.entity;
 import com.guilhermediniz.roomie_tabs.entity.constant.AuditableEntity;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
+@Builder
 
 @Entity
 @Table(name = "users")
